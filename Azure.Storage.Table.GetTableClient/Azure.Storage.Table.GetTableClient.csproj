@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Function returns an instance of Microsoft Azure CloudTableClient using the given connection string</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Azure.Storage.Table.GetTableClient</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient</RepositoryUrl>
+    <Version>3.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Azure.Storage.Connection.GetCloudStorageAccount" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
