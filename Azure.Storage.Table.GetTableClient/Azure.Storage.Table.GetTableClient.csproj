@@ -15,11 +15,11 @@
     <PackageLicenseUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/Azure.Storage.Table.GetTableClient</RepositoryUrl>
-    <Version>4.0.7</Version>
+    <Version>4.0.8</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Azure.Storage.Connection.GetCloudStorageAccount" Version="4.0.7" />
+    <PackageReference Include="CDorst.Azure.Storage.Connection.GetCloudStorageAccount" Version="4.0.8" />
   </ItemGroup>
 
 </Project>
